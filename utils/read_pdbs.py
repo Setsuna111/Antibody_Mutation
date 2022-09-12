@@ -17,7 +17,7 @@ import torch
 
 from protein_attribute import aa_codes, BACKBONE_ATOMs, NON_STANDARD_SUBSTITUTIONS, RESIDUE_SIDECHAIN_POSTFIXES, \
     augmented_is_aa, augmented_three_to_index, augmented_three_to_one, ATOM_CA
-ATOM_N, ATOM_CA, ATOM_C, ATOM_O, ATOM_CB = 0, 1, 2, 3, 4
+
 
 def read_pdb_3D(pdb_file_path, chain_index_list=None, is_backbone=False):
     """

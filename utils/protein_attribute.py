@@ -52,7 +52,7 @@ RESIDUE_SIDECHAIN_POSTFIXES = {
 
 GLY_INDEX = 5
 ATOM_N, ATOM_CA, ATOM_C, ATOM_O, ATOM_CB = 0, 1, 2, 3, 4
-ATOM_N, ATOM_CA, ATOM_C, ATOM_O, ATOM_CB = 0, 1, 2, 3, 4
+
 
 
 def augmented_three_to_one(three):
